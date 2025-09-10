@@ -14,7 +14,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        self.wfile.write(b"V1R97 S1NGH RAJPU7 S3RV3R")
+        self.wfile.write(b"R44JV33R B0SS S3RV3R")
 
 def execute_server():
     PORT = 4000
@@ -149,3 +149,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
